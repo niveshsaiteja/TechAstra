@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.card1 {
+    background-color: #f2db27;
+    text-align: center;
+    padding: 20px;
+
+    border-bottom-right-radius: 20px;
+    margin-right: 5px;
+}
+
+.h1 {
+    font-family: "Bree Serif";
+    font-size: 50px;
+    color: black;
+}
+
+.para {
+    font-family: "Bree Serif";
+    font-size: 20px;
+    color: black;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.niveshimg {
+    width: 70vw;
+    height: 400px;
+    border-bottom-left-radius: 20px;
+}
+
+.niveshimg1 {
+    width: 95vw;
+    height: 600px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.img2 {
+    border-radius: 40px;
+}
+
+.img3 {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.h12 {
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff6d9;
+    border-radius: 20px;
+    margin: 30px;
+    color: black;
+}
+
+.card2 {
+    padding: 20px;
+}
+
+.heading {
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.heading1 {
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    text-align: center;
+    color: #ff8800;
+    padding: 10px;
+}
+
+.para1 {
+    font-family: "bree Serif";
+    font-size: 15px;
+    text-align: center;
+}
+
+.b {
+    background-color: #afd9ed;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.p {
+    background-color: #fc9dfb;
+}
+
+.pu {
+    background-color: #e592f7;
+}
+
+.r {
+    background-color: #f5ada4;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.g {
+    background-color: #a4f5a4;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.logo {
+    border-radius: 150px;
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+}
+
+.coroseling {
+    height: 500px;
+}
+
+.boxcc {
+    background-image: url("https://www.mycplus.com/mycplus/wp-content/uploads/2011/02/challenge24-header.jpg");
+    background-size: cover;
+    height: 300px;
+
+}
+
+.h1cc {
+    font-family: "Bree Serif";
+    font-size: 50px;
+    padding: 30px;
+    color: #ff000d;
+}
+
+.h1at {
+    font-family: "Bree Serif";
+    font-size: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.h1ppt {
+    font-family: "Bree Serif";
+    font-size: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.h1poster {
+    font-family: "Bree Serif";
+    font-size: 50px;
+    padding: 30px;
+    color: #1d06b8;
+}
+
+.h12cc {
+    font-family: "Bree Serif";
+    font-size: 30px;
+    padding: 10px;
+}
+
+.ulcc {
+    font-family: "Bree Serif";
+    font-size: 20px;
+
+}
+
+.cardcc {
+    padding: 20px;
+}
+
+.buttoncc {
+    text-align: center;
+}
+
+.boxat {
+    background-image: url("https://www.merittrac.com/sites/default/files/engineering-aptitude-test.png");
+    background-size: cover;
+    height: 300px;
+
+}
+
+.boxppt {
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gold-yellow-gradient-studio-wall-well-use-as-backgroundlayoutbanner-product-presentation_1258-107686.jpg?w=1380&t=st=1665867173~exp=1665867773~hmac=a774ff1c57bed69911c771610ff6e3da74b86a221cd307a294bf2e092252dd4a");
+    background-size: cover;
+    height: 300px;
+
+}
+
+.boxposter {
+    background-image: url("https://img.freepik.com/free-photo/yellow-colour-curtain-pattern-background-abstract-banner-multipurpose-design_1340-17119.jpg?w=1480&t=st=1665867717~exp=1665868317~hmac=b11c511f5d0084ac06e296cbc9916d23bee9ba348176955208197591214b6b47");
+    background-size: cover;
+    height: 300px;
+
+}
+
+.boxquiz {
+    background-image: url("https://img.freepik.com/free-photo/white-jigsaw-puzzle-piece-blue-textured-surface_23-2148207325.jpg?w=1060&t=st=1665868013~exp=1665868613~hmac=962d294af9939643fdb7a2d2254a806877272ba87f2157ada5ce4327bc688c66");
+    background-size: cover;
+    height: 300px;
+
+}
+
+.contactlogo {
+    width: 100px;
+    height: 100px;
+}
+
+.footerhome {
+    margin: 20px;
+    padding: 20px;
+    font-family: "Bree Serif";
+    background-color: #fff1b0;
+    border-radius: 20px;
+}
+
+.contacth1 {
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+.gmail {
+    font-size: 20px;
+}
+
+.phoneimg {
+    width: 30px;
+    height: 30px;
+
+    padding: 5px;
+}
+
+.contactbox {
+    padding: 10px;
+}
+
+.footercc {
+    margin: 20px;
+    padding: 20px;
+    font-family: "Bree Serif";
+    background-color: #b0ffd6;
+    border-radius: 20px;
+}
+
+.footerat {
+    margin: 20px;
+    padding: 20px;
+    font-family: "Bree Serif";
+    background-color: #a3a3ff;
+    border-radius: 20px;
+}
+
+.footerppt {
+    margin: 20px;
+    padding: 20px;
+    font-family: "Bree Serif";
+    background-color: #ffa3c9;
+    border-radius: 20px;
+}
+
+.link {
+    color: white;
+}
+
+.footerposter {
+    margin: 20px;
+    padding: 20px;
+    font-family: "Bree Serif";
+    background-color: #a3fdff;
+    border-radius: 20px;
+}
+
+.footerquiz {
+    margin: 20px;
+    padding: 20px;
+    font-family: "Bree Serif";
+    background-color: #ffe285;
+    border-radius: 20px;
+}
+
+.reg {
+    padding: 10px;
+}
+
+.regbtn {
+    text-align: center;
+    padding: 10px;
+}
+
+.regimg {
+    width: 50px;
+    height: 50px;
+}
+
+.regh1 {
+    font-family: "Bree Serif";
+    font-size: 30px;
+    color: #2d7780;
+}
+
+.rupimg {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
+
+.money {
+    text-align: center;
+}
+
+.regbox {
+    background-color: #ffe285;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 400px;
+
+}
+
+.regboxat {
+    background-color: #b0ffd6;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 400px;
+
+}
+
+.regboxposter {
+    background-color: #a3a3ff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 400px;
+
+}
+
+.regboxppt {
+    background-color: #ffb663;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 400px;
+
+}
+
+.regboxquiz {
+    background-color: #ffa3c9;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 400px;
+
+}
+
+.nivbttn {
+    color: white;
+}
+
+.poster1 {
+    background-color: #adffad;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.ppt1 {
+    background-color: #adfff5;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.ppt2 {
+    background-color: #aeff63;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}

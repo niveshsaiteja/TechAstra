@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="d-flex flex-row justify-content">
+            <div class="card1">
+                <img class="img2" src="https://res.cloudinary.com/dwhdoklob/image/upload/v1665840424/datasciencelogo_jutmcj.png" alt="" />
+                <h1 class="h1">TechAstra</h1>
+                <p class="para">Sri Indu College Of Engineering And Technology</p>
+            </div>
+            <img class="niveshimg" src="https://sriindu.ac.in/wp-content/uploads/2019/05/slide-1.jpg" alt="" />
+        </div>
+        <div class="card2">
+            <div class="d-flex flex-row justify-content-center">
+                <img width="45px" height="45px" src="https://cdn-icons-png.flaticon.com/512/1255/1255375.png?w=740&t=st=1666034742~exp=1666035342~hmac=29106386a8a0e10ed8c0dd527b967937b8f3c6e65eebc19882dc6454ac51ab29" alt="" />
+                <h1 class="heading1">DATE OF EVENT : 21/10/2022</h1>
+            </div>
+            <h1 class="heading">Events</h1>
+            <p class="para1">Go through the events </p>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="box  shadow-lg" onclick="display('sectionppt')">
+                    <img class="img3  " src="https://cdn-icons-png.flaticon.com/512/993/993750.png?w=740&t=st=1665841089~exp=1665841689~hmac=01ce1b00992f1b10f9f8c4f1df7253f20bf1e68156fcc4b1e1a28e79c19987d2" alt="" />
+                    <h1 class="h12">Paper Presentation</h1>
+                </div>
+                <div class="box p  shadow-lg " onclick="display('sectionposter')">
+                    <img class="img3  " src="https://cdn-icons-png.flaticon.com/512/888/888724.png?w=740&t=st=1665843323~exp=1665843923~hmac=59951821451ca8b1d89ef2263cf743917dc451ae1c1c437268d27b9b97db9f5d" alt="" />
+                    <h1 class="h12">Poster Presentation</h1>
+                </div>
+                <div class="box b  shadow-lg " onclick="display('sectioncc')">
+                    <img class="img3  " src="https://cdn-icons-png.flaticon.com/512/1208/1208833.png?w=740&t=st=1665843167~exp=1665843767~hmac=39fd0247a8decd004f2e5be29b14f33e8c62178714cfa31f698e710fb9e5d012" alt="" />
+                    <h1 class="h12">Coding Contest</h1>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="box r  shadow-lg " onclick="display('sectionquiz')">
+                    <img class="img3  " src="https://cdn-icons-png.flaticon.com/512/1234/1234493.png?w=740&t=st=1665843108~exp=1665843708~hmac=1282add579d174f203796abaa5d04db7572e2d686488511416017199a18aee4d" alt="" />
+                    <h1 class="h12">Quiz</h1>
+                </div>
+                <div class="box g  shadow-lg " onclick="display('sectionat')">
+                    <img class="img3  " src="https://cdn-icons-png.flaticon.com/512/999/999119.png?w=740&t=st=1665843208~exp=1665843808~hmac=4acfb95e4c273d6979a32518e3aeb11ad5b41d4b5cf6d6a8c5191eb47fa1261f" alt="" />
+                    <h1 class="h12">Aptitude Test</h1>
+                </div>
+            </div>
+        </div>
+        <div class="ppt1">
+            <h1 class="heading">Formal Dress Code Should be strictly followed with ID card.</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <img width="50px" height="50px" src="https://cdn-icons-png.flaticon.com/512/1255/1255362.png?w=740&t=st=1666032747~exp=1666033347~hmac=99682f97f5b3584fa09653a2ff2112aa92cb1d51931f6abb0f53dc6af744d59e" alt="" />
+                <h1 class="heading">Registration closes on : 19/10/2022 evening 4:00 PM.</h1>
+            </div>
+        </div>
+        <br />
+        <div class="ppt2">
+            <div>
+                <img width="50px" height="50px" src="https://cdn-icons-png.flaticon.com/512/1239/1239705.png?w=740&t=st=1666001717~exp=1666002317~hmac=36911a086865d77ade4da0afc8f12c49d383283b13af6625076b2d55e8ebc55c" alt="" />
+                <img width="50px" height="50px" src="https://cdn-icons-png.flaticon.com/512/1222/1222186.png?w=740&t=st=1666032115~exp=1666032715~hmac=ecc97d89d8cd2ca252ee60603f66a7b3a8dbf372fc210dbec3ddc6676af8d99f" alt="" />
+                <img width="50px" height="50px" src="https://cdn-icons-png.flaticon.com/512/1090/1090217.png?w=740&t=st=1666032303~exp=1666032903~hmac=663b9c46a9a76915378dac67974f940be4d908d329da1edc13f0cc17f9296a2b" alt="" />
+                <img width="50px" height="50px" src="https://cdn-icons-png.flaticon.com/512/540/540738.png?w=740&t=st=1666032502~exp=1666033102~hmac=ca3d8585f241f60f9e698d870f60b1c0bd80681fb2f716e79a5b72209ab22c56" alt="" />
+            </div>
+            <h1 class="heading1">Certificates & Awards will be Provided to the Participants</h1>
+        </div>
+        <br />
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://goacollegeofart.com/sites/default/files/styles/medium/public/field/image/class_18.jpg?itok=P4oz5_yX " class="d-block w-100 coroseling" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Aptitude Test</h1>
+                        <p>An aptitude test plays an important role in understanding the personality of the person.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/highereducation/images/w_865,h_320,c_fill,f_auto,q_auto:best,g_faces/v1649292649/BestColleges.com/BC_Blog_Courses-Academics_Pop-Quiz-Tips_4.6.22_FTR/BC_Blog_Courses-Academics_Pop-Quiz-Tips_4.6.22_FTR.jpg" class="d-block w-100 coroseling" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Quiz</h1>
+                        <p>Quizzes can help students practice their existing knowledge while piquing their interest in understanding a different topic.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://miro.medium.com/max/1400/0*q7sKLWpxASnTwb4K.jpg" class="d-block w-100 coroseling" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Poster Presentation</h1>
+                        <p> A poster presentation is a way to communicate your research or your understanding of a topic in a concise and visually engaging format.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dwhdoklob/image/upload/v1665856951/IMG20220915154631_ha11lx.jpg" class="d-block w-100 coroseling" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Paper Presentation</h1>
+                        <p>Presenting paper is to bring students out of stage fear and also improve their communication skills.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://www.mycplus.com/mycplus/wp-content/uploads/2011/02/Programming_challenge-e1522093628775-1280x640.jpg" class="d-block w-100 coroseling" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Coding Contest</h1>
+                        <p>A coding contest helps the participants in becoming more efficient at solving problems.</p>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <br />
+        <div>
+            <h1 class="heading">Event Poster</h1>
+            <img class="niveshimg1" src="https://res.cloudinary.com/dwhdoklob/image/upload/v1666064388/EVENTposter_gnzk3y.jpg" alt="" />
+        </div>
+        <div class="footerhome">
+            <div class="d-flex flex-row justify-content">
+                <img class="contactlogo" src="https://cdn-icons-png.flaticon.com/512/1256/1256652.png?w=740&t=st=1665904366~exp=1665904966~hmac=ae9fca7e4c2abcd8f2da65a96c8cb16eb974127738d80ab133e0ffbcaaf230ad" alt="" />
+                <h1 class="contacth1">Contact Details</h1>
+            </div>
+            <div class="contactbox">
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1250/1250973.png?w=740&t=st=1665912108~exp=1665912708~hmac=37c09fea822a4759dd73dc5ead14ea200dea95c905b7308ee3ed8252f8397045" alt="" />
+                    <h1 class="gmail">Gmail : techastra2k22@gmail.com</h1>
+                </div>
+                <br />
+                <h1 class="gmail">Event Organiser : M.Geethik </h1>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no:7780708749</h1>
+                </div>
+                <br />
+                <h1 class="gmail">III-DS Class Co-Ordinator: Ms.B.K.N. Priyanka Mam </h1>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no:9640619112</h1>
+                </div>
+                <br />
+                <h1 class="gmail">Ds Dept HOD: Dr.S.R. Mugunthan Sir</h1>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no:9944920319</h1>
+                </div>
+                <br />
+                <h1 class="gmail">DS Dept Incharge HOD: Mr.B. Suresh Sir</h1>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no:9032223264</h1>
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>
+    <div id="sectioncc">
+        <div class="boxcc">
+            <h1 class="h1cc">Coding Contest</h1>
+        </div>
+        <div class="cardcc">
+        </div>
+        <div class="d-flex flex-row justify-content">
+
+            <div>
+                <h1 class="h12cc">Topics of this contest</h1>
+                <ul class="ulcc">
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                    <li>Functional Programming</li>
+                    <li>Logical Thinking Questions </li>
+                </ul>
+            </div>
+            <div class="regbox">
+                <img class="regimg" src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png?w=740&t=st=1665913541~exp=1665914141~hmac=03d0a13085f6dadfe17edc178e699a325159d110e7ed38d5257392000046b091" alt="" />
+                <h1 class="regh1"> Free Registration</h1>
+            </div>
+            <div>
+                <img src="" alt="" />
+            </div>
+        </div>
+        <h1 class="h12cc">Languages can be use to code</h1>
+        <ul class="ulcc">
+            <li>C</li>
+            <li>C++</li>
+            <li>python</li>
+            <li>java</li>
+        </ul>
+        <div class="ppt1">
+            <h1 class="h12cc">Level of Difficulty</h1>
+            <ul class="ulcc">
+                <li>Easy</li>
+                <li>Medium</li>
+                <li>Hard</li>
+            </ul>
+            <h1 class="h12cc">Total Questions : 5</h1>
+            <ul class="ulcc">
+                <li>Easy : 1</li>
+                <li>Medium : 2 </li>
+                <li>Hard : 2</li>
+            </ul>
+            <h1 class="h12cc">Time : 1 Hr </h1>
+        </div>
+        <div class="regbtn">
+            <button class="btn btn-primary reg"><a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSfYqrdoLbltwZgCCsZlPENP_gHOwitEp3zvUt-MZqcj83oNsA/viewform?usp=sf_link ">Register Here</a></button>
+        </div>
+        <div class="alert alert-danger" role="alert">
+            To attend this contest the persons must and should register for hackerrank account
+        </div>
+        <div class="alert alert-success" role="alert">
+            Those who have'nt registered can click on <a href="https://www.hackerrank.com/dashboard" class="alert-link">the link</a>. you will be redirected to hackerrank website.
+        </div>
+        <div class="buttoncc">
+            <button class="btn btn-secondary" onclick="display('sectionhome')">Back</button>
+        </div>
+        <div>
+            <button class="btn btn-warning"><a href="https://www.hackerrank.com/techastra-coding-cintest-round-3">Enter Contest</a></button>
+        </div>
+        <div class="footercc">
+            <div class="d-flex flex-row justify-content">
+                <img class="contactlogo" src="https://img.freepik.com/free-icon/call_318-937944.jpg?t=st=1665909653~exp=1665910253~hmac=567080e0c8431101a00b666224139ac52e7e9a57b8109bb67f40f8fb14ed75fe" alt="" />
+                <h1 class="contacth1">Contact US</h1>
+            </div>
+            <div class="contactbox">
+                <h1 class="gmail">Event Representatives :</h1>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                    <h1 class="gmail"> Varshith</h1>
+                </div>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no:9032223264</h1>
+                </div>
+                <h1 class="gmail">Data Science III year</h1>
+                <br />
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                    <h1 class="gmail">Vamshi Barath Reddy</h1>
+                </div>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no:9032223264</h1>
+                </div>
+                <h1 class="gmail">Data Science III year</h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionat">
+        <div class="boxat d-flex flex-row justify-content">
+            <h1 class="h1at">Aptitude Test</h1>
+            <img class="image" src="https://media.gettyimages.com/id/956729754/photo/unrecognizable-veterans-take-a-college-course.webp?s=1024x1024&w=gi&k=20&c=cGL_yU08dyLMWsBxV5oevBFR9WZM4lNLzE7D3OQYW-0=" alt="" />
+        </div>
+        <div class="cardcc">
+            <div class="d-flex flex-row justify-content">
+                <div>
+                    <h1 class="h12cc">Topics of this Test</h1>
+                    <ul class="ulcc">
+                        <li>Number series</li>
+                        <li>Ages</li>
+                        <li>Calender</li>
+                        <li>Speed And Time</li>
+                        <li>English Vocabulary</li>
+                        <li>Boat and Streams</li>
+                        <li>Profit and Loss </li>
+                    </ul>
+                </div>
+                <div class="regboxat">
+                    <img class="regimg" src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png?w=740&t=st=1665913541~exp=1665914141~hmac=03d0a13085f6dadfe17edc178e699a325159d110e7ed38d5257392000046b091" alt="" />
+                    <h1 class="regh1">Free Registration</h1>
+                </div>
+            </div>
+        </div>
+        <h1 class="h12cc">Level of Difficulty</h1>
+        <ul class="ulcc">
+            <li>Easy</li>
+            <li>Medium</li>
+            <li>Hard</li>
+        </ul>
+        <div class="ppt1">
+            <h1 class="h12cc">2 levels :</h1>
+            <ul class="ulcc">
+                <li>Level 1:</li>
+                <ul class="ulcc">
+                    <li>15 Questions </li>
+                    <ul>
+                        <li>5 Easy Questions </li>
+                        <li>5 Medium Questions</li>
+                        <li>5 Hard Questions</li>
+                    </ul>
+                </ul>
+                <li>Level 2 :</li>
+                <ul class="ulcc">
+                    <li>10 Questions</li>
+                    <ul>
+                        <li>5 Medium Questions</li>
+                        <li>5 Hard Questions</li>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+        <div class="alert alert-danger" role="alert">
+            NOTE : The persons who are Qualified in level-1 are eligible for level-2
+        </div>
+        <div class="regbtn">
+            <button class="btn btn-primary reg"><a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSfYqrdoLbltwZgCCsZlPENP_gHOwitEp3zvUt-MZqcj83oNsA/viewform?usp=sf_link ">Register Here</a></button>
+        </div>
+        <br />
+        <div class="buttoncc">
+            <button class="btn btn-secondary" onclick="display('sectionhome')">Back</button>
+        </div>
+        <div class="footerat">
+            <div class="d-flex flex-row justify-content">
+                <img class="contactlogo" src="https://img.freepik.com/free-icon/call_318-937944.jpg?t=st=1665909653~exp=1665910253~hmac=567080e0c8431101a00b666224139ac52e7e9a57b8109bb67f40f8fb14ed75fe" alt="" />
+                <h1 class="contacth1">Contact US</h1>
+            </div>
+            <div class="contactbox">
+                <h1 class="gmail">Event Representatives :</h1>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                    <h1 class="gmail">G. Ganesh</h1>
+                </div>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no: 7396532848</h1>
+                </div>
+                <h1 class="gmail">AIML III year</h1>
+                <br />
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                    <h1 class="gmail">Srujana</h1>
+                </div>
+                <div class="d-flex flex-row justify-content">
+                    <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                    <h1 class="gmail">phone no:9347245709</h1>
+                </div>
+                <h1 class="gmail">Data Science III year</h1>
+            </div>
+        </div>
+    </div>
+    <div id="sectionppt">
+        <div class="boxppt d-flex flex-row justify-content">
+            <h1 class="h1ppt">Paper Presentation</h1>
+            <img class="image" src="https://media.gettyimages.com/id/1130889251/photo/black-university-student-giving-a-presentation-during-an-education-event.webp?s=1024x1024&w=gi&k=20&c=5U2m7HMkD-z-D1AVahPOuXdqasgmymdZMhHRoqEJ9Hs=" alt="" />
+        </div>
+        <div class="cardcc">
+            <div class="d-flex flex-row justify-content">
+                <div>
+                    <h1 class="h12cc">Topics of this Event</h1>
+                    <ul class="ulcc">
+                        <li>Hyper Loop</li>
+                        <li>Pro and Cons of block chain & application</li>
+                        <li>Web development and applications</li>
+                        <li>Cloud Computing</li>
+                        <li>Ethical Hacking</li>
+                        <li>Big Data</li>
+                        <li>wifi and Lifi</li>
+                        <li>Surface web vs Deep web vs dark web.</li>
+                        <li>Robotics</li>
+                    </ul>
+                </div>
+                <div class="regboxppt">
+                    <img class="regimg" src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png?w=740&t=st=1665913541~exp=1665914141~hmac=03d0a13085f6dadfe17edc178e699a325159d110e7ed38d5257392000046b091" alt="" />
+                    <h1 class="regh1">Free Registration</h1>
+                </div>
+            </div>
+            <div class="ppt1">
+                <h1 class="h12cc">PPT should be prepared in following format</h1>
+                <ul class="ulcc">
+                    <li> Font: Timesnew Roman</li>
+                    <li>Font size of Content: 12</li>
+                    <li>heading size : 16 or 18</li>
+                    <li>Minimum slides : 10 </li>
+                    <li>Background : Light colours </li>
+                    <li>No Transition , No animations </li>
+                    <li>Hard copy of Abstract of ppt</li>
+                    <li>Soft copy of ppt in Pendrive</li>
+                </ul>
+                <h1 class="h12cc">Model of ppt</h1>
+                <button class="btn btn-warning"><a class="nivbttn" href="https://res.cloudinary.com/dwhdoklob/raw/upload/v1666002845/Techastra_model_Presentation_dijlmw.pptx">Model</a></button>
+            </div>
+            <br />
+            <div class="alert alert-danger" role="alert">
+                NOTE : Team size should be maximum 2
+            </div>
+            <div class="regbtn">
+                <button class="btn btn-primary reg"><a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSfYqrdoLbltwZgCCsZlPENP_gHOwitEp3zvUt-MZqcj83oNsA/viewform?usp=sf_link ">Register Here</a></button>
+            </div>
+            <br />
+            <div class="buttoncc">
+                <button class="btn btn-secondary" onclick="display('sectionhome')">Back</button>
+            </div>
+            <div class="footerppt">
+                <div class="d-flex flex-row justify-content">
+                    <img class="contactlogo" src="https://img.freepik.com/free-icon/call_318-937944.jpg?t=st=1665909653~exp=1665910253~hmac=567080e0c8431101a00b666224139ac52e7e9a57b8109bb67f40f8fb14ed75fe" alt="" />
+                    <h1 class="contacth1">Contact US</h1>
+                </div>
+                <div class="contactbox">
+                    <h1 class="gmail">Event Representatives :</h1>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                        <h1 class="gmail">N. Harini </h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                        <h1 class="gmail">phone no: 9390532689</h1>
+                    </div>
+                    <h1 class="gmail">Data Science III year</h1>
+                    <br />
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                        <h1 class="gmail">J. Akanksha</h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                        <h1 class="gmail">phone no:9346836568</h1>
+                    </div>
+                    <h1 class="gmail">Data Science III year</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionposter">
+        <div class="boxposter d-flex flex-row justify-content">
+            <h1 class="h1ppt">Poster Presentation</h1>
+            <img class="image" src="https://media.gettyimages.com/id/1142334353/photo/creative-professional-shares-ideas-with-coworkers.webp?s=1024x1024&w=gi&k=20&c=T2E8z2_mblXy5kHm_JnLjEErLyoKR_r0LwJX5PqvxqQ=" alt="" />
+        </div>
+        <div class="cardcc">
+            <div class="d-flex flex-row justify-content">
+                <div>
+                    <h1 class="h12cc">Topics of this Event</h1>
+                    <ul class="ulcc">
+                        <li>Evolution and improvement of wireless communication</li>
+                        <li>3D Technology</li>
+                        <li>Blockchain Technology</li>
+                        <li>Dark Web in Cyber Security</li>
+                        <li>Data Security in Government computer </li>
+                        <li>Satellite Communication</li>
+                    </ul>
+                </div>
+                <div class="regboxposter">
+                    <img class="regimg" src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png?w=740&t=st=1665913541~exp=1665914141~hmac=03d0a13085f6dadfe17edc178e699a325159d110e7ed38d5257392000046b091" alt="" />
+                    <h1 class="regh1">Free Registration</h1>
+                </div>
+            </div>
+            <div class="poster1">
+                <h1 class="h12cc">Poster should be prepared in the following format</h1>
+                <ul class="ulcc">
+                    <li>size of Poster : A2 </li>
+                    <li>Oil Printing</li>
+                    <li>Poster should contain name of college</li>
+                    <li>Main Heading : Topic name</li>
+                    <li>Photos related to topic</li>
+                    <li>Participants details at bottom including</li>
+                    <ul class="ulcc">
+                        <li>Name of Co-Ordinator of respective class</li>
+                        <li>Name of HOD </li>
+                        <li>Department</li>
+                    </ul>
+                </ul>
+                <h1 class="h12cc">Model of poster</h1>
+                <button class="btn btn-primary"><a href="https://res.cloudinary.com/dwhdoklob/image/upload/v1665997742/poster_spa8un.jpg" class="nivbttn">Model</a></button>
+            </div>
+            <div class="alert alert-danger" role="alert">
+                NOTE : Team size should be Maximum 2
+            </div>
+            <div class="regbtn">
+                <button class="btn btn-primary reg"><a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSfYqrdoLbltwZgCCsZlPENP_gHOwitEp3zvUt-MZqcj83oNsA/viewform?usp=sf_link ">Register Here</a></button>
+            </div>
+            <br />
+            <div class="buttoncc">
+                <button class="btn btn-secondary" onclick="display('sectionhome')">Back</button>
+            </div>
+            <div class="footerposter">
+                <div class="d-flex flex-row justify-content">
+                    <img class="contactlogo" src="https://img.freepik.com/free-icon/call_318-937944.jpg?t=st=1665909653~exp=1665910253~hmac=567080e0c8431101a00b666224139ac52e7e9a57b8109bb67f40f8fb14ed75fe" alt="" />
+                    <h1 class="contacth1">Contact US</h1>
+                </div>
+                <div class="contactbox">
+                    <h1 class="gmail">Event Representatives :</h1>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                        <h1 class="gmail">G. Srihitha</h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                        <h1 class="gmail">phone no: 9704188966</h1>
+                    </div>
+                    <h1 class="gmail">Data Science III year</h1>
+                    <br />
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                        <h1 class="gmail">D. Spandana</h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                        <h1 class="gmail">phone no: 8341575493</h1>
+                    </div>
+                    <h1 class="gmail">Data Science III year</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionquiz">
+        <div class="boxquiz d-flex flex-row justify-content">
+            <h1 class="h1poster">Quiz</h1>
+            <img class="image" src="https://media.gettyimages.com/id/1348235111/photo/innovation-and-new-ideas-lightbulb-concept-with-question-mark.webp?s=1024x1024&w=gi&k=20&c=KuCs1O1JybiHJKcez4KpXm7DcaiK-PtWPpj7IlQNhGU=" alt="" />
+        </div>
+
+        <div class="cardcc">
+            <div class="d-flex flex-row justify-content">
+                <div>
+                    <h1 class="h12cc">Topics of this Event</h1>
+                    <ul class="ulcc">
+                        <li>ROUND1: General knowledge Questions</li>
+                        <ul>
+                            <li>level of Difficulty: Easy</li>
+                            <li>20 Questions</li>
+                            <li>For each Question 30 Seconds will be provided to answer</li>
+                        </ul>
+                        <li>ROUND2: programming language(Basic knowledge)</li>
+                        <ul>
+                            <li>level of Difficulty: Medium</li>
+                            <li>20 Questions</li>
+                            <li>For each Question 45 Seconds will be provided to answer</li>
+                        </ul>
+                        <li>ROUND3: programming language (Algorithms ,Syntax,coding)</li>
+                        <ul>
+                            <li>level of Difficulty: Hard</li>
+                            <li>20 Questions</li>
+                            <li>For each Question 75 Seconds will be provided to answer</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="regboxquiz">
+                    <img class="regimg" src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png?w=740&t=st=1665913541~exp=1665914141~hmac=03d0a13085f6dadfe17edc178e699a325159d110e7ed38d5257392000046b091" alt="" />
+                    <h1 class="regh1">Free Registration</h1>
+                </div>
+            </div>
+
+            <h1 class="h12cc">Level of Difficulty</h1>
+            <ul class="ulcc">
+                <li>Easy</li>
+                <li>Medium</li>
+                <li>Hard</li>
+            </ul>
+            <div class="alert alert-danger" role="alert">
+                NOTE : Only Individual Participants are allowed.
+                <br />
+                NOTE : Quiz will be conducted offline.
+            </div>
+            <br />
+            <div class="regbtn">
+                <button class="btn btn-primary reg"><a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSfYqrdoLbltwZgCCsZlPENP_gHOwitEp3zvUt-MZqcj83oNsA/viewform?usp=sf_link ">Register Here</a></button>
+            </div>
+            <br />
+            <div class="buttoncc">
+                <button class="btn btn-secondary" onclick="display('sectionhome')">Back</button>
+            </div>
+            <div class="footerquiz">
+                <div class="d-flex flex-row justify-content">
+                    <img class="contactlogo" src="https://img.freepik.com/free-icon/call_318-937944.jpg?t=st=1665909653~exp=1665910253~hmac=567080e0c8431101a00b666224139ac52e7e9a57b8109bb67f40f8fb14ed75fe" alt="" />
+                    <h1 class="contacth1">Contact US</h1>
+                </div>
+                <div class="contactbox">
+                    <h1 class="gmail">Event Representatives :</h1>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                        <h1 class="gmail">Laxmi Narasimha Reddy </h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                        <h1 class="gmail">phone no: 9492168916</h1>
+                    </div>
+                    <h1 class="gmail">Cyber Security III year</h1>
+                    <br />
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239318.png?w=740&t=st=1665908686~exp=1665909286~hmac=4f69e7e5bd11fb2e1143c2b3c93c97e889572bb7ccf1375f9b2c57ae8442d585" alt="" />
+                        <h1 class="gmail">Bharath</h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content">
+                        <img class="phoneimg" src="https://cdn-icons-png.flaticon.com/512/1239/1239296.png?w=740&t=st=1665907004~exp=1665907604~hmac=6580f367d5cb947baff61d4c3e057e52bc60a89221f9b51755d243b7b3a104d3" alt="" />
+                        <h1 class="gmail">phone no: 8247848861</h1>
+                    </div>
+                    <h1 class="gmail">Data Science III year</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
